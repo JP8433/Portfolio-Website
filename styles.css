@@ -686,6 +686,11 @@ img{
   }
 }
 
+@media screen and (max-width: 480px) {      /* Set styles for screens smaller than 480px */
+  .home__img {
+    max-width: 80%;
+  }
+}
 
 
 /* Style for the notification */
