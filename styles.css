@@ -161,6 +161,7 @@ img{
 
   .nav-menu1.active {
       left: 0;
+      background-color: #f8f8f8;
   }
 
   .nav-item1 {
@@ -329,9 +330,10 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 0;
+  right: 20%;
   bottom: 200px;
   width: 250px;
+  
 
 }
 #firstImage{
@@ -586,10 +588,7 @@ img{
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
-  .home__img{
-    width: 457px;
-    bottom: 15%;
-  }
+  
 
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
