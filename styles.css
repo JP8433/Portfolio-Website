@@ -484,6 +484,24 @@ img{
   opacity: 0;
   transition: opacity 0.5s;
 }
+.work__img .tech-stack {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.work__img:hover .tech-stack {
+  opacity: 1;
+}
+
+
 
 .btn {
   padding: 15px 30px;
